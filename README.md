@@ -50,7 +50,7 @@ Ypyjson has Cython compatability and is really made for Cython as well for expan
 from ypyjson.reader cimport cloads, YpyObject , YpyArray 
 #etc...
 ```
-Note that for the read flags You'll need to refer to the Variable Documentation in yyjson's documentation 
+Note that for the read flags, you'll need to refer to the Variable Documentation linked below in yyjson's documentation 
 
 https://ibireme.github.io/yyjson/doc/doxygen/html/yyjson_8h.html#aff1d62b68993630e74355e4611b77520
 
@@ -71,7 +71,8 @@ from ypyjson.reader cimport (
 )
 
 ```
-
+## Installation
+For now it is still being worked on and figured out but I'm almost done so don't worry about it yet... :) 
 
 ## TODOs
 - [x] Implement a reader and extract all variables directly to python...
@@ -89,4 +90,6 @@ library for this code that YpyJson can work directly with Cython via cimport , M
 
 - [] When yyjson comes out with a Streaming API , add streaming API Under a DynamicLoader class varaible
 
-- [x] including cython package with pypi when I've figure it out...
+- [] Once Beta Version of this python library is avalibe and inplace via pypi Make sure that yyjson.c as well as yyjson.h is included for compiling to Cython.
+ 
+- [x] including/bundling cython package with pypi when I've figure it out...
