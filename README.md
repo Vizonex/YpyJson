@@ -72,7 +72,12 @@ from ypyjson.reader cimport (
 
 ```
 ## Installation
-For now it is still being worked on and figured out but I'm almost done so don't worry about it yet... :) 
+- Requires Cython and Setuptools 
+then do the following...
+```
+pip install ypyjson 
+```
+As of currently, Cython compatability under pip install is still being proto-typed but python library works just fine for right now...
 
 ## TODOs
 - [x] Implement a reader and extract all variables directly to python...
